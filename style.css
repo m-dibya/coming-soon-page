@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image:url(img.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero{
+    color: #fff;
+}
+div{
+    font-size: 3rem;
+    letter-spacing: 1.2rem;
+    font-weight: 100;
+
+}
+.hero .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.hero .box #space{
+    width: 1rem;
+}
+
+@media (max-width: 768px) {
+    div{
+        font-size: 2.5rem;
+        letter-spacing: 1.2rem;
+    }
+}
+@media (max-width: 669px) {
+    div{
+        font-size: 2rem;
+        letter-spacing: 1.2rem;
+    }
+}
+@media (max-width: 567px) {
+    div{
+        font-size: 2rem;
+        letter-spacing: 0.8rem;
+    }
+}
+@media (max-width: 466px) {
+    div{
+        font-size: 2rem;
+        letter-spacing: 0.5rem;
+    }
+}
